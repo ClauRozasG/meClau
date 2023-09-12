@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+
+body{
+    background-color: #FDFCF9;
+}
+.navegacion{
+    justify-content: center;
+    vertical-align: baseline;
+    margin-top: 20px;
+    
+}
+
+.navegacion h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color: #28311B;
+
+}
+
+.navegacion ul{
+    text-align: center;
+}
+.navegacion li{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    display: inline;
+    margin: 0 40px 0 0;
+    text-align: center;
+    
+}
+
+.navegacion a, a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/* Estilos para el cursor parpadeante */
+.cursor {
+    display: inline-block;
+    width: 10px;
+    animation: blink 0.7s infinite alternate;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Estilos para el texto */
+.linea-1, .linea-2 {
+    font-size: 40px; /* Puedes ajustar el tamaño del texto aquí */
+    margin-left: 20px;
+    white-space: nowrap;
+    font-family: 'Inconsolata', monospace;/* Evita que el texto se divida en múltiples líneas */
+}
+
+.linea-2 {
+    display: none; /* Oculta la segunda línea inicialmente */
+}
