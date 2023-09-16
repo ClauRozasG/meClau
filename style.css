@@ -36,6 +36,18 @@ body{
     color: black;
 }
 
+.titulo-animado{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.aboutme{
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    margin-left: 21%;
+    margin-top: 5%;
+}
+
 /* Estilos para el cursor parpadeante */
 .cursor {
     display: inline-block;
