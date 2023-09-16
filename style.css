@@ -41,7 +41,7 @@ body{
     margin-top: 5%;
 }
 
-.aboutme{
+.aboutme, .curiosidades{
     font-family: 'Inconsolata', monospace;
     color: black;
     margin-left: 21%;
