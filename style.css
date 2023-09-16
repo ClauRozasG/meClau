@@ -75,3 +75,18 @@ body{
 .linea-2 {
     display: none; /* Oculta la segunda línea inicialmente */
 }
+
+.footer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10%;
+    color: #28311B;
+}
+.linkedin, .redes, .git{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 47%;
+}
+
