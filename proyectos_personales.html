@@ -67,9 +67,8 @@
                     <h4>Proyecto Análisis OMS</h4>
                     En este ejercicio, trabajé con un conjunto de datos de la OMS. Comencé por realizar una exploración inicial de los datos y las columnas disponibles. Identifiqué que algunas etiquetas de columnas eran poco claras y las renombré para mejorar su comprensión. Además, noté la presencia de datos faltantes en algunas columnas y opté por llenarlos mediante la imputación del promedio de los datos en esas columnas.
 
-                    <br><br>Luego, mi análisis se centró en la relación entre las diversas columnas y en la predicción de la esperanza de vida. Para llevar a cabo la predicción, empleé el método de regresión lineal, una técnica de machine learning. Dividí los datos en conjuntos de entrenamiento (x_train, y_train) y de prueba (x_test, y_test) para evaluar el rendimiento del modelo.
+                    <br><br>Luego, mi análisis se centró en la relación entre las diversas columnas y en la predicción de la esperanza de vida. Para llevar a cabo la predicción, empleé el método de regresión lineal, una técnica de machine learning.
 
-                    <br><br>Al finalizar, generé un gráfico de dispersión para comparar los datos reales de esperanza de vida (y_test) con las predicciones del modelo (y_pred). Observando el gráfico, se puede apreciar que la predicción fue exitosa, ya que una gran cantidad de datos se encuentra cerca de la "diagonal", lo que indica que las predicciones se ajustaron bien a los valores reales.
                     <br><br> Link: <a href="https://github.com/ClauRozasG/Analisis-OMS" target="_blank">Análisis OMS</a>
                 </li>
                 <li>
@@ -77,14 +76,12 @@
 
                     Para este ejercicio, me encontré con un archivo de chat de WhatsApp de la universidad que tenía un formato inusual: '[fecha , hora] nombre : mensaje'. Dado que no podía usar el método de separación común debido a la falta de un separador estándar, decidí crear una función para procesar los datos.
 
-                    <br><br>Primero, inicialicé cuatro arrays vacíos para organizar la información en cuatro columnas: Fecha, Hora, Remitente y Mensaje. Luego, establecí un patrón para detectar las palabras entre corchetes '[ ]' en cada línea del chat.
-
-                    <br><br>Usé la función re.match() para buscar la primera coincidencia del patrón en cada línea del chat. Si encontraba una coincidencia, dividía el texto capturado en fecha y hora utilizando .split(', ').
-
-                    <br><br>Después, extraje el resto de la línea y lo dividí en partes utilizando split(': '). Si había un remitente, la primera parte se consideraba el remitente y el resto se consideraba el mensaje. Si no había remitente, asigné una cadena vacía ('') al remitente y el mensaje completo al mensaje.
-
-                    <br><br>Finalmente, utilicé .append para asignar los valores a los arrays que había creado al principio. Con los datos debidamente estructurados, pude crear un nuevo DataFrame con las columnas y los valores correspondientes para llevar a cabo un análisis visual. Este proceso me permitió comprender mejor la conversación en el chat de WhatsApp y extraer conclusiones importantes a partir de los datos.
+                    <br><br>Para luego hacer un análisis de qué palabras se hablan más o en qué momento del día es cuando escriben más mensajes, electrónico
                     <br><br> Link: <a href="https://github.com/ClauRozasG/An-lisis-chat-Whatsapp" target="_blank">Análisis WhatsApp</a>
+                </li>
+
+                <li>
+                    <h4>Y más...</h4>
                 </li>
             </ul>
                 

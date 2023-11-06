@@ -145,10 +145,18 @@ body{
     text-decoration: none;
 }
 
+.contact-me a{
+    text-decoration: none;
+}
+
+.contact-me{
+    font-family: 'Inconsolata', monospace;
+    margin: 5% 21%
+}
 .descargar-cv {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #B3541E;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -156,6 +164,6 @@ body{
 }
 
 .descargar-cv:hover {
-    background-color: #0056b3;
+    background-color: #805c47;
 }
 
