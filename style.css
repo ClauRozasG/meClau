@@ -145,14 +145,20 @@ body{
     text-decoration: none;
 }
 
-.contact-me a{
-    text-decoration: none;
+.contact-me {
+    font-family: 'Inconsolata', monospace;
+    margin: 5% 21%;
+    padding: 20px;
+    border: 2px solid #025464;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-me{
-    font-family: 'Inconsolata', monospace;
-    margin: 5% 21%
+.contact-me a {
+    text-decoration: none;
+    
 }
+
 .descargar-cv {
     display: inline-block;
     padding: 10px 20px;
@@ -161,6 +167,10 @@ body{
     text-decoration: none;
     font-weight: bold;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    
 }
 
 .descargar-cv:hover {
